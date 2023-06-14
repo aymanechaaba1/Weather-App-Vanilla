@@ -1,8 +1,7 @@
 'use strict';
 
-const API_KEY = '50fe900cc8de963f369c620fa6567653';
-const MAPBOX_ACCESS_TOKEN =
-  'pk.eyJ1IjoiYXltYW5lY2hhYWJhMSIsImEiOiJjbGdpMHNrNm4wcjZoM2h0MWozeGcyanZwIn0.cUx85D1sHiOEwkltH8p0UQ';
+const API_KEY = ''; // Your OpenWeatherMap API_KEY
+const MAPBOX_ACCESS_TOKEN = ''; // Your Mapbox Access Token
 
 const statsContainer = document.querySelector('.stats');
 const tempContainer = document.querySelector('.temp-status');
