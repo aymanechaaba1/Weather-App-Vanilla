@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      defer
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      defer
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <link rel="stylesheet" href="src/styles.css" />
+    <script defer src="src/script.js"></script>
+    <title>Weather Data</title>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <form class="form">
+          <ion-icon name="search-outline" class="icon search-icon"></ion-icon>
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Search a location"
+          />
+        </form>
+        <div class="location-time">
+          <div class="location">Rabat</div>
+          <div class="time">February 21, 2023 03:15 PM</div>
+        </div>
+      </header>
+      <section class="weather">
+        <div class="stats">
+          <div class="card clouds">
+            <h4>Clouds</h4>
+            <div class="val clouds-val">37</div>
+          </div>
+          <div class="card dewPoint">
+            <h4>dew Point</h4>
+            <div class="val dew-point-val">16.91</div>
+          </div>
+          <div class="card feelsLike">
+            <h4>feels Like</h4>
+            <div class="val feels-like-val">22.57</div>
+          </div>
+          <div class="card humidity">
+            <h4>Humidity</h4>
+            <div class="val humidity-val">71</div>
+          </div>
+          <div class="card pressure">
+            <h4>Pressure</h4>
+            <div class="val pressure-val">1013</div>
+          </div>
+          <div class="card uvi">
+            <h4>UVI</h4>
+            <div class="val uvi-val">3.51</div>
+          </div>
+          <div class="card wind-deg">
+            <h4>Wind Deg</h4>
+            <div class="val wind-deg-val">360</div>
+          </div>
+          <div class="card wind-speed">
+            <h4>Wind Speed</h4>
+            <div class="val wind-speed-val">4.63</div>
+          </div>
+        </div>
+        <div class="temp-status">
+          <div class="temp">
+            <ion-icon
+              name="thunderstorm"
+              class="icon temp-icon thunderstorm"
+            ></ion-icon>
+            <div class="temp-val">22.42</div>
+            <div class="desc">Scattered Clouds</div>
+            <div class="status">Clouds</div>
+          </div>
+          <div class="sunrise-sunset">
+            <div class="sunrise">
+              <ion-icon name="sunny" class="sunrise-icon"></ion-icon>
+              <h4>Sunrise</h4>
+              <div class="sunrise-val">1682919510</div>
+            </div>
+            <div class="sunset">
+              <ion-icon name="partly-sunny" class="sunset-icon"></ion-icon>
+              <h4>Sunset</h4>
+              <div class="sunset-val">1682968209</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
