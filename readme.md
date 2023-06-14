@@ -1,6 +1,6 @@
 # Weather App with Vanilla JS
 
-Powering my build with OpenWeatherMap API. Really cool API to get all the weather data you need.
+Powering my build with https://openweathermap.org/api. Really cool API to get all the weather data you need.
 
 Please add your OpenWeatherMap API_KEY to make the app working.
 
